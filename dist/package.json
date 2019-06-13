@@ -1,16 +1,6 @@
 {
   "name": "cofi-hello-app",
-  "version": "1.0.3",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "tsc": "tsc",
-    "packagr": "ng-packagr -p ng-package.json"
-  },
+  "version": "1.0.2",
   "private": false,
   "dependencies": {
     "@angular/animations": "~8.0.0",
@@ -46,5 +36,15 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
-  }
+  },
+  "main": "bundles/cofi-hello-app.umd.js",
+  "module": "fesm5/cofi-hello-app.js",
+  "es2015": "fesm2015/cofi-hello-app.js",
+  "esm5": "esm5/cofi-hello-app.js",
+  "esm2015": "esm2015/cofi-hello-app.js",
+  "fesm5": "fesm5/cofi-hello-app.js",
+  "fesm2015": "fesm2015/cofi-hello-app.js",
+  "typings": "cofi-hello-app.d.ts",
+  "metadata": "cofi-hello-app.metadata.json",
+  "sideEffects": false
 }
