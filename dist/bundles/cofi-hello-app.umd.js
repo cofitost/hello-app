@@ -38,7 +38,7 @@
         HelloComponent = __decorate([
             core.Component({
                 selector: 'app-hello',
-                template: "<p>\n  hello!\n</p>\n",
+                template: "<p>\r\n  This is s hello component!\r\n</p>\r\n",
                 styles: [""]
             }),
             __metadata("design:paramtypes", [])

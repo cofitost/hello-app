@@ -1,6 +1,6 @@
 {
   "name": "cofi-hello-app",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "private": false,
   "dependencies": {
     "@angular/animations": "~8.0.0",
